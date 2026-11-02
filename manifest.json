@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "hihry.tasks",
+  "name": "Daily Tasks",
+  "version": "1.0.0",
+  "author": "hihry",
+  "license": "MIT",
+  "description": "Manage today's pending tasks and plan tomorrow's tasks with priority levels, quick add, postpone/pull-forward, and automatic midnight rollover.",
+  "kinds": [
+    "service",
+    "bar-widget"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Daily Tasks",
+    "description": "Today's pending tasks & tomorrow's task planner in your status bar.",
+    "category": "Productivity",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
